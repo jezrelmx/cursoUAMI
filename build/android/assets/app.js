@@ -1,0 +1,1 @@
+/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/app.js
