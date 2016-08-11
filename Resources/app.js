@@ -1,7 +1,17 @@
-var ventana = Titanium.UI.createWindow({
-	backgroundImage : 'fondo_chica.png',
-	layout : 'vertical'
-});
+if (Titanium.Platform.osname == 'android') {
+	var ventana = Titanium.UI.createWindow({
+		backgroundImage : '/images/fondo_chica.png',
+		theme: 'materialThemeNoAB',
+		layout : 'vertical'
+	});
+};
+
+if (Titanium.Platform.osname == 'iphone') {
+	var ventana = Titanium.UI.createWindow({
+		backgroundImage : 'fondo_chica.png',
+		layout : 'vertical'
+	});
+};
 
 /**
  * ------- VISTA SUPERIOR -------
@@ -18,7 +28,7 @@ var view_mes_hora = Titanium.UI.createView({
 	opacity : 0.5,
 	width : Titanium.UI.SIZE,
 	height : Titanium.UI.SIZE,
-	top: '15%',
+	top : '15%',
 	layout : 'vertical'
 });
 
@@ -26,15 +36,17 @@ var lb_mes = Titanium.UI.createLabel({
 	text : 'Ago',
 	color : '#FFFFFF',
 	font : {
-		fontSize : 24
+		fontSize : 20
 	}
 });
 
 var lb_hora = Titanium.UI.createLabel({
 	text : '21:30',
 	color : '#FFFFFF',
+	top : '-15dp',
 	font : {
-		fontSize : 40
+		fontFamily: 'TitilliumWeb-Light',
+		fontSize : 45
 	}
 });
 
@@ -49,7 +61,7 @@ var view_inf = Titanium.UI.createView({
 	opacity : 0.5,
 	width : Titanium.UI.FILL,
 	height : '40%',
-	layout: 'vertical'
+	layout : 'vertical'
 });
 
 var view_dias = Titanium.UI.createView({
