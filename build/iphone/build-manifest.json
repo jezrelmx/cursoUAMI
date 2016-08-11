@@ -3120,6 +3120,21 @@
 			"mtime": "2016-08-09T22:41:53.000Z",
 			"size": 683
 		},
+		"fondo_chica.png": {
+			"hash": "b77e935cc79914d56a63455bab46d24b",
+			"mtime": "2016-08-11T00:15:14.000Z",
+			"size": 272144
+		},
+		"fondo_chica@2x.png": {
+			"hash": "1411770b3413bbb929f98ed8a0581cde",
+			"mtime": "2016-08-11T00:15:13.000Z",
+			"size": 863166
+		},
+		"fondo_chica@3x.png": {
+			"hash": "ceb225b95ea03eb2b1bbcc1a9fd6d4ac",
+			"mtime": "2016-08-11T00:15:13.000Z",
+			"size": 1652637
+		},
 		"Default-568h@2x.png": {
 			"hash": "39604172bca979c1482b8526b4b8b207",
 			"mtime": "2016-08-09T22:41:53.000Z",
