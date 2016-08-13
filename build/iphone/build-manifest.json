@@ -3120,6 +3120,16 @@
 			"mtime": "2016-08-09T22:41:53.000Z",
 			"size": 683
 		},
+		"db/paises.sql": {
+			"hash": "e8a532331bc4728f1a005011d19b0cbb",
+			"mtime": "2016-08-12T20:55:37.000Z",
+			"size": 269
+		},
+		"db/paises.sqlite": {
+			"hash": "d87cff8ae980deb662a0eb4637ba447c",
+			"mtime": "2016-08-12T20:54:52.000Z",
+			"size": 131072
+		},
 		"bell.png": {
 			"hash": "5f733636225536826c525062539a6fca",
 			"mtime": "2016-08-11T01:09:56.000Z",

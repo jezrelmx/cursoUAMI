@@ -1,8 +1,0 @@
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/android/support/v7/appcompat/R.java"
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/android/support/v7/cardview/R.java"
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/mx/uam/izt/holati/AssetCryptImpl.java"
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/mx/uam/izt/holati/HolaTiActivity.java"
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/mx/uam/izt/holati/HolaTiAppInfo.java"
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/mx/uam/izt/holati/HolaTiApplication.java"
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/mx/uam/izt/holati/R.java"
-"/Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/android/gen/ti/modules/titanium/ui/R.java"

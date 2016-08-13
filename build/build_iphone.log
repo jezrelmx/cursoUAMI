@@ -1,5 +1,5 @@
 
-8/11/2016, 6:30:40 PM
+8/12/2016, 8:42:09 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/jezrel_mx/.appcelerator/install/5.3.1/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.3.1.GA --project-dir /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti --target simulator --ios-version 9.3 --device-family universal --deploy-type development --sim-type iphone --sim-version 9.3 --device-id 09BAA66D-FCBA-415A-A710-38D7A5C5CCC5 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49498 --config-file /var/folders/r5/pj8_d8zj7vd4g39_nw7nssb00000gn/T/build-1470958238688.json --no-banner --project-dir /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti
+  /usr/local/bin/node /Users/jezrel_mx/.appcelerator/install/5.3.1/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.3.1.GA --project-dir /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti --target simulator --ios-version 9.3 --device-family universal --deploy-type development --sim-type iphone --sim-version 9.3 --device-id 09BAA66D-FCBA-415A-A710-38D7A5C5CCC5 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49498 --config-file /var/folders/r5/pj8_d8zj7vd4g39_nw7nssb00000gn/T/build-1471052514467.json --no-banner --project-dir /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 09BAA66D-FCBA-415A-A710-38D7A5C5CCC5
 [TRACE]  [ioslib] Found iOS Simulator UDID 09BAA66D-FCBA-415A-A710-38D7A5C5CCC5
@@ -108,7 +108,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/r5/pj8_d8zj7vd4g39_nw7nssb00000gn/T/build-d81894e079604b8648ac649b3e134c76885d0685.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 84179.333 sec ago
+[TRACE]  optimizing build, last build was 34120.135 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -174,6 +174,10 @@ Command
 [DEBUG]  Overwriting /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/KS_nav_ui.png => /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/KS_nav_ui.png
 [TRACE]  No change, skipping /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/KS_nav_views.png
 [DEBUG]  Overwriting /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/KS_nav_views.png => /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/db/paises.sql
+[DEBUG]  Overwriting /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/db/paises.sql => /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/db/paises.sql
+[TRACE]  No change, skipping /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/db/paises.sqlite
+[DEBUG]  Overwriting /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/db/paises.sqlite => /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/db/paises.sqlite
 [TRACE]  No change, skipping /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/bell.png
 [DEBUG]  Overwriting /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/iphone/bell.png => /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/bell.png
 [TRACE]  No change, skipping /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/bell@2x.png
@@ -217,6 +221,7 @@ Command
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
 [DEBUG]  Overwriting /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/app.js => /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/app.js
+[DEBUG]  Overwriting /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/Resources/home.js => /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/home.js
 [INFO]   Writing app properties
 [TRACE]  No change, skipping /Users/jezrel_mx/Documents/Appcelerator_Workspace_DIM/Hola Ti/build/iphone/build/Products/Debug-iphonesimulator/Hola Ti.app/_app_props_.json
 [DEBUG]  Using default application routing
@@ -232,13 +237,13 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 677ms
+[INFO]   Finished building the application in 4s 205ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 5s
 [TRACE]  [ioslib]   UDID    = 09BAA66D-FCBA-415A-A710-38D7A5C5CCC5
 [TRACE]  [ioslib]   iOS     = 9.3
 [TRACE]  [ioslib] Autoselected Xcode: 7.3.1
-[TRACE]  [ioslib] Removing old log file: /Users/jezrel_mx/Library/Developer/CoreSimulator/Devices/09BAA66D-FCBA-415A-A710-38D7A5C5CCC5/data/Containers/Data/Application/D4B1B84C-AC63-4199-9056-DB02722591DF/Documents/921fe673-b8ca-4bc7-9fff-2691def3e946.log
+[TRACE]  [ioslib] Removing old log file: /Users/jezrel_mx/Library/Developer/CoreSimulator/Devices/09BAA66D-FCBA-415A-A710-38D7A5C5CCC5/data/Containers/Data/Application/DA23E93C-93F2-4FF0-8F51-D932F902BF20/Documents/921fe673-b8ca-4bc7-9fff-2691def3e946.log
 [TRACE]  [ioslib] iPhone 5s Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPhone 5s Simulator system log: /Users/jezrel_mx/Library/Logs/CoreSimulator/09BAA66D-FCBA-415A-A710-38D7A5C5CCC5/system.log
 [TRACE]  [ioslib] Running: osascript "/Users/jezrel_mx/Library/Application Support/Titanium/mobilesdk/osx/5.3.1.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
@@ -247,5 +252,4 @@ Command
 [TRACE]  [ioslib] App installed
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 09BAA66D-FCBA-415A-A710-38D7A5C5CCC5 mx.uam.izt.holati
 [TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/jezrel_mx/Library/Developer/CoreSimulator/Devices/09BAA66D-FCBA-415A-A710-38D7A5C5CCC5/data/Containers/Data/Application/C31BAD3C-5EC4-4A6C-96C3-CF2EB585A10A/Documents/921fe673-b8ca-4bc7-9fff-2691def3e946.log
-[TRACE]  [Hola Ti] assertion failed: 15G31 13E230: libxpc.dylib + 57882 [66C28065-C9DB-3C8E-926F-5A40210A6D1B]: 0x7d
+[TRACE]  [ioslib] Detected crash, but no crash file
